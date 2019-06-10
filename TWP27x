@@ -1,0 +1,69 @@
+TWP270
+
+edifício_térreo = "Família Souza"
+edifício_1o_andar = "Família Brito"
+edifício_2o_andar = "Sr Jorge"
+edifício_3o_andar = "Família Tanaka"
+
+
+edifício = ["Família Souza", "Família Brito", "Sr Jorge", "Família Tanaka"]
+print (edifício[0])
+print (edifício[1])
+print (edifício[2])
+print (edifício[3])
+
+my_array = [7, "24", "Fish", "hat stand"]
+
+my_words = ["Dudes", "and"]
+print (my_words[0])
+print (my_words[1])
+
+my_words.append("Bettys")
+print (my_words[2])
+
+array = []
+
+notas = [7.5, 9, 8.3]
+print (notas[0])
+
+notas[0] = 8.7
+print (notas[0])
+
+
+TWP271
+
+notas = [6, 7, 5, 8, 9]
+soma = 0
+i = 0
+while i<5:
+  soma += notas[i]
+  x += 1
+  
+print ("Média: %5.2f" %(soma/i))
+
+TWP272
+
+array = []
+i = 1
+
+while i <= 5:
+  n = int(input("Digite um número: "))
+  array.append(n)
+  i += 1
+
+print ("Vetor lido:, vetor)
+
+TWP273
+
+array = []
+i = 0
+
+while i < 10:
+  n = float(input("Digite um número: "))
+  array.append(n)
+  i += 1
+
+i = 9
+while i >= 0:
+  print(vetor[i])
+  i -= 1
